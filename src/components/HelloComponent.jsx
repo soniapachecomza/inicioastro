@@ -5,7 +5,9 @@ export default function HelloComponent() {
             React Hello
         </h1>
 
-        <button>
+        <button onClick={
+            alert('Hola')
+        }>
             Click here
         </button>
     </div>
